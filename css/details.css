@@ -1,0 +1,40 @@
+.body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  text-transform: none;
+}
+.heading {
+  width: 100%;
+}
+.heading a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+  text-transform: none;
+}
+
+.gameContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gameInformation {
+  padding: 1rem;
+  max-width: 500px;
+  text-transform: none;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 30px;
+}
+
+.errorMessage {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: red;
+}
